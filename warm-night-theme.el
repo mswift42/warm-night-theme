@@ -1,4 +1,4 @@
-;;; warm-night-theme.el --- Emacs 24 theme with a dark background.
+;;; warm-night-theme.el --- Emacs 24 theme with a light background.
 
 ;; Copyright (C) 2014 , martin haesler
 
@@ -30,25 +30,25 @@
 
 (deftheme warm-night)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#919191")
-       (fg2 "#858585")
-       (fg3 "#787878")
-       (fg4 "#6c6c6c")
-       (bg1 "#242526")
-       (bg2 "#333435")
-       (bg3 "#424344")
-       (bg4 "#525354")
-       (key2 "#6f6440")
-       (key3 "#544a27")
-       (builtin "#48517c")
-       (keyword "#5e532b")
-       (const   "#674951")
-       (comment "#474646")
-       (func    "#753f62")
-       (str     "#7a4233")
-       (type    "#375c39")
-       (var     "#326067")
-       (warning "#ff0000"))
+       (fg1 "#a1a1a1")
+       (fg2 "#939393")
+       (fg3 "#858585")
+       (fg4 "#787878")
+       (bg1 "#080707")
+       (bg2 "#1b1b1b")
+       (bg3 "#2c2b2b")
+       (bg4 "#3d3c3c")
+       (key2 "#4d6d81")
+       (key3 "#325366")
+       (builtin "#7a3e58")
+       (keyword "#375d73")
+       (const   "#56552a")
+       (comment "#575252")
+       (func    "#325e44")
+       (str     "#79442f")
+       (type    "#554a78")
+       (var     "#664a4a")
+       (warning "#f70505"))
    (custom-theme-set-faces
    'warm-night
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
