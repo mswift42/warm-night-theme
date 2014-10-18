@@ -66,6 +66,8 @@
         `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
         `(region ((,class (:background ,fg1 :foreground ,bg1))))
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
+        `(evil-ex-lazy-highlight ((,class (:foreground ,fg3 :background ,bg3))))
+        `(evil-ex-substitute-matches ((,class (:foreground ,fg3 :background ,bg2))))
         `(hl-line ((,class (:background  ,bg2))))
         `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
         `(cursor ((,class (:background ,bg3))))
@@ -159,6 +161,7 @@
         `(magit-branch ((,class (:foreground ,const :weight bold))))
         `(magit-log-author ((,class (:foreground ,fg3))))
         `(magit-hash ((,class (:foreground ,fg2))))
+        `(magit-diff-file-header ((,class (:foreground ,fg2 :background ,bg3))))
         `(rainbow-delimiters-unmatched-face ((,class :foreground ,warning)))))
 
 ;;;###autoload
