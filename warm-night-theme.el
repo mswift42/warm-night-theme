@@ -198,7 +198,19 @@
    `(helm-grep-lineno ((t (:foreground ,fg1 :background ,bg1))))
    `(helm-grep-match ((t (:foreground nil :background nil :inherit helm-match))))
    `(helm-grep-running ((t (:foreground ,func :background ,bg1))))
-   `(helm-moccur-buffer ((t (:foreground ,func :background ,bg1))))))
+   `(helm-moccur-buffer ((t (:foreground ,func :background ,bg1))))
+   `(web-mode-builtin-face ((,class (:inherit ,font-lock-builtin-face))))
+   `(web-mode-comment-face ((,class (:inherit ,font-lock-comment-face))))
+   `(web-mode-constant-face ((,class (:inherit ,font-lock-constant-face))))
+   `(web-mode-keyword-face ((,class (:foreground ,keyword))))
+   `(web-mode-doctype-face ((,class (:inherit ,font-lock-comment-face))))
+   `(web-mode-function-name-face ((,class (:inherit ,font-lock-function-name-face))))
+   `(web-mode-string-face ((,class (:foreground ,str))))
+   `(web-mode-type-face ((,class (:inherit ,font-lock-type-face))))
+   `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
+   `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
+   `(web-mode-warning-face ((t (:inherit ,font-lock-warning-face))))
+   `(web-mode-html-tag-face ((t (:foreground ,builtin))))))
 
 ;;;###autoload
 (when load-file-name
