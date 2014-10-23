@@ -207,10 +207,10 @@
    `(web-mode-function-name-face ((,class (:inherit ,font-lock-function-name-face))))
    `(web-mode-string-face ((,class (:foreground ,str))))
    `(web-mode-type-face ((,class (:inherit ,font-lock-type-face))))
-   `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
-   `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
+   `(web-mode-html-attr-name-face ((,class (:foreground ,var))))
+   `(web-mode-html-attr-value-face ((,class (:foreground ,const))))
    `(web-mode-warning-face ((t (:inherit ,font-lock-warning-face))))
-   `(web-mode-html-tag-face ((t (:foreground ,builtin))))))
+   `(web-mode-html-tag-face ((t (:foreground ,fg3))))))
 
 ;;;###autoload
 (when load-file-name
