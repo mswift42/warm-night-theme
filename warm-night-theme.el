@@ -211,7 +211,7 @@
    `(web-mode-html-attr-value-face ((,class (:foreground ,const))))
    `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
    `(web-mode-html-tag-face ((,class (:foreground ,fg3))))
-   `(ace-jump-face-foreground ((,class (:foreground ,keyword :bold t :underline t))))))
+   `(ace-jump-face-foreground ((,class (:foreground ,func  :bold t))))))
 
 ;;;###autoload
 (when load-file-name
