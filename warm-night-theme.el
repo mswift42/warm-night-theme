@@ -209,8 +209,9 @@
    `(web-mode-type-face ((,class (:inherit ,font-lock-type-face))))
    `(web-mode-html-attr-name-face ((,class (:foreground ,var))))
    `(web-mode-html-attr-value-face ((,class (:foreground ,const))))
-   `(web-mode-warning-face ((t (:inherit ,font-lock-warning-face))))
-   `(web-mode-html-tag-face ((t (:foreground ,fg3))))))
+   `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
+   `(web-mode-html-tag-face ((,class (:foreground ,fg3))))
+   `(ace-jump-face-foreground ((,class (:foreground ,keyword :bold t :underline t))))))
 
 ;;;###autoload
 (when load-file-name
