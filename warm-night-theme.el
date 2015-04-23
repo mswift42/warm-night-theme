@@ -102,6 +102,7 @@
    `(org-agenda-date ((,class (:foreground ,var :height 1.1 ))))
    `(org-agenda-date-weekend ((,class (:weight normal :foreground ,fg4))))
    `(org-agenda-date-today ((,class (:weight bold :foreground ,keyword :height 1.4))))
+   `(org-agenda-done ((,class (:foreground ,bg4))))
    `(org-scheduled ((,class (:foreground ,type))))
    `(org-ellipsis ((,class (:foreground ,builtin))))
    `(org-verbatim ((,class (:foreground ,fg4))))
