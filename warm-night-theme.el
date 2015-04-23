@@ -104,6 +104,7 @@
    `(org-agenda-date-today ((,class (:weight bold :foreground ,keyword :height 1.4))))
    `(org-agenda-done ((,class (:foreground ,bg4))))
    `(org-scheduled ((,class (:foreground ,type))))
+   `(org-scheduled-today ((,class (:foreground ,func))))
    `(org-ellipsis ((,class (:foreground ,builtin))))
    `(org-verbatim ((,class (:foreground ,fg4))))
    `(org-document-info-keyword ((,class (:foreground ,func))))
