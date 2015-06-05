@@ -226,6 +226,12 @@
    `(web-mode-html-attr-value-face ((,class (:foreground ,const))))
    `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
    `(web-mode-html-tag-face ((,class (:foreground ,fg3))))
+   `(jde-java-font-lock-package-face ((t (:foreground ,var))))
+   `(jde-java-font-lock-public-face ((t (:foreground ,keyword))))
+   `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
+   `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
+   `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+   `(jde-java-font-lock-number-face ((t (:foreground ,var))))
    `(ace-jump-face-foreground ((,class (:foreground ,func  :bold t))))))
 
 ;;;###autoload
