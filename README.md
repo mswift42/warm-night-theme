@@ -23,7 +23,7 @@ Installation Instructions
 add the following lines to your init.el (only if you have not done so already):
 
     (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                             ("melpa" . "http://melpa.milkbox.net/packages/")))
+                             ("melpa" . "http://melpa.org/packages/")))
     (package-initialize)
 
 
