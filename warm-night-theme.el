@@ -233,7 +233,10 @@
    `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
    `(jde-java-font-lock-number-face ((t (:foreground ,var))))
    `(jde-java-font-lock-protected-face ((t (:foreground ,keyword))))
-   `(ace-jump-face-foreground ((,class (:foreground ,func  :bold t))))))
+   `(ace-jump-face-foreground ((,class (:foreground ,func  :bold t)))))
+   `(jabber-chat-prompt-foreign ((t (:foreground ,func))))
+   `(jabber-chat-prompt-local ((t (:foreground ,builtin))))
+   `(jabber-roster-user-online ((t (:foreground ,builtin)))))
 
 ;;;###autoload
 (when load-file-name
